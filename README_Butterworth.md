@@ -1,12 +1,23 @@
 # Filtro Butterworth Pasabanda para 2.56kHz
 
 ## Descripción
-Este script diseña un filtro Butterworth pasabanda analógico para la frecuencia de 2.56kHz como parte del ecualizador de audio de 4 bandas.
+Este Live Script diseña un filtro Butterworth pasabanda analógico para la frecuencia de 2.56kHz como parte del ecualizador de audio de 4 bandas.
 
 ## Archivos
-- `butterworth_pasabanda_2560Hz.m`: Script principal de diseño
+- `butterworth_pasabanda_2560Hz.m`: Script de diseño (listo para convertir a Live Script)
 - `filtro_butterworth_2560Hz.mat`: Coeficientes del filtro (generado al ejecutar)
 - `respuesta_butterworth_2560Hz.png`: Gráfica de respuesta en frecuencia (generada al ejecutar)
+
+## Cómo convertir a Live Script (.mlx)
+
+1. Abre MATLAB
+2. Navega a la carpeta del proyecto
+3. En el "Current Folder", haz clic derecho en `butterworth_pasabanda_2560Hz.m`
+4. Selecciona **"Open as Live Script"** o usa el comando:
+   ```matlab
+   matlab.internal.liveeditor.openAndConvert('butterworth_pasabanda_2560Hz.m', 'butterworth_pasabanda_2560Hz.mlx')
+   ```
+5. Guarda el archivo como `.mlx`
 
 ## Cómo usar
 
